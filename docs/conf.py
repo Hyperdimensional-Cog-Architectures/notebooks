@@ -1,1 +1,1 @@
-master_doc = 'contents'
+master_doc = './source/contents.rst'
