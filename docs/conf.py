@@ -1,1 +1,1 @@
-master_doc = './source/contents.rst'
+master_doc = 'index'
