@@ -1,3 +1,3 @@
 # Project information
-project = 'Introduction to Hyperdimensional Cognitive Models'
+project = 'VSAs and Cognition'
 master_doc = 'index'
