@@ -10,13 +10,14 @@ The ANIMUS lab and University of Waterloo collaborators are proud to announce th
 Participants
 ========
 
+We are a collection of multidisciplinary scientists meeting to push forward the state of the art in vector computing models.
+
 Supervisors
 ----------------
 
-* **Michael Furlong** (University of Waterloo): Adjunct Assistant Professor - Systems Design Engineering, University of Waterloo
-Affiliate Member - Centre for Theoretical Neuroscience
+* **Michael Furlong** (University of Waterloo): Adjunct Assistant Professor - Systems Design Engineering, University of Waterloo Affiliate Member - Centre for Theoretical Neuroscience
    
-* *TENTATIVE* **Mary Alexandria Kelly** (Carleton University): Dr. Mary Kelly is the principal investigator of the ANIMUS lab and an Assistant Professor in the Department of Cognitive Science. She is a cognitive scientist with a background in machine learning, cognitive psychology, psycholinguistics, computational linguistics, and philosophy of mind. Her research has two goals: (1) to advance the scientific understanding of the basic cognitive functions that underpin human learning, knowledge, and language acquisition, and (2) to develop biologically-inspired machine learning systems capable of achieving expert performance on arbitrary tasks through learning.
+* **Mary Alexandria Kelly** (Carleton University): Dr. Mary Kelly is the principal investigator of the ANIMUS lab and an Assistant Professor in the Department of Cognitive Science. She is a cognitive scientist with a background in machine learning, cognitive psychology, psycholinguistics, computational linguistics, and philosophy of mind. Her research has two goals: (1) to advance the scientific understanding of the basic cognitive functions that underpin human learning, knowledge, and language acquisition, and (2) to develop biologically-inspired machine learning systems capable of achieving expert performance on arbitrary tasks through learning.
 
 Co-leads
 -------------
@@ -28,7 +29,7 @@ Co-leads
 
 * **Spencer Eckler** (Carleton University): Spencer’s research is in causal reasoning – how we reason about actions, outcomes, and counterfactuals. He uses cognitive models to simulate psychological tasks tying behaviour, neural activity, and mental representations through theory synthesis.
 
-* 
+*  **Tim**
 
 * **Connor Hanley** (Carleton University): Connor is interested in cognitive architectures, the theory and applications of neuromorphic computation, and biologically plausible models of representations of numerosity.
 
