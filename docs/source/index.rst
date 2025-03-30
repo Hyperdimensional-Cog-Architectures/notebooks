@@ -1,7 +1,7 @@
 VSAs and Cognition
 =================================================
 
-Welcome to *VSAs and Cognition *! This is a 
+Welcome to *VSAs and Cognition*! This is a 
 collection of tutorials for getting used to using
 `Vector Symbolic Architectures <https://www.hd-computing.com/>`_ (VSAs)
 which is a mathematical formalism that we use in our lab to model cognition.
@@ -19,3 +19,4 @@ This project is under active development.
    :caption: Contents:
 
    linear_algebra_essentials
+   waterloo_research_2025
