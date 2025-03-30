@@ -13,3 +13,9 @@ Note:
 -----
 
 This project is under active development.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   linear_algebra_essentials
