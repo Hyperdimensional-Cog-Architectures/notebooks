@@ -19,6 +19,8 @@ Supervisors
    
 * **Mary Alexandria Kelly** (Carleton University): Dr. Mary Kelly is the principal investigator of the ANIMUS lab and an Assistant Professor in the Department of Cognitive Science. She is a cognitive scientist with a background in machine learning, cognitive psychology, psycholinguistics, computational linguistics, and philosophy of mind. Her research has two goals: (1) to advance the scientific understanding of the basic cognitive functions that underpin human learning, knowledge, and language acquisition, and (2) to develop biologically-inspired machine learning systems capable of achieving expert performance on arbitrary tasks through learning.
 
+* **Terrence C. Stewart** (University of Waterloo): I am an Associate Research Officer at National Research Council Canada. Previously I was a post-doctoral research associate working with Chris Eliasmith at the Centre for Theoretical Neuroscience at the Universit of Waterloo. My initial training was as an engineer (B.A.Sc. in Systems Design Engineering, University of Waterloo, 1999), my masters involved applying experimental psychology on simulated robots (M.Phil. in Computer Science and Artificial Intelligence, University of Sussex, 2000), and my Ph.D. was on cognitive modelling (Ph.D. in Cognitive Science, Carleton University, 2007).
+
 Co-leads
 --------
 
