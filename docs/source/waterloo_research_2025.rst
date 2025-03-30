@@ -43,6 +43,8 @@ Resources
 
 * `<https://github.com/eilene-ftf/holis>`_
 
+* Flanagan, E.T. & Kelly, M. A. (2024). Hey Pentti, we did it!: A fully vector-symbolic Lisp. In Proceedings of the 22nd International Confernece on Cognitive Modeling. Tilburg, the Netherlands: Tilburg University. https://github.com/eilene-ftf/holis/blob/main/heypentti.pdf
+
 * Kleyko, D., Davies, M., Frady, E. P., Kanerva, P., Kent, S. J., Olshausen, B. A., Osipov, E., Rabaey, J. M., Rachkovskij, D. A., Rahimi, A., & Sommer, F. T. (2022). Vector Symbolic Architectures as a Computing Framework for Emerging Hardware. Proceedings of the IEEE, 110(10), 1538–1571. https://doi.org/10.1109/JPROC.2022.3209104
 
 * Kleyko, D., Rachkovskij, D. A., Osipov, E., & Rahimi, A. (2023a). A Survey on Hyperdimensional Computing aka Vector Symbolic Architectures, Part I: Models and Data Transformations. ACM Computing Surveys, 55(6), 1–40. https://doi.org/10.1145/3538531
