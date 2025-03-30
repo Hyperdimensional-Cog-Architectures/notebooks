@@ -40,3 +40,15 @@ Resources
 =========
 
 * `<https://github.com/eilene-ftf/holis>`_
+
+* D. Kleyko, D. A. Rachkovskij, E. Osipov, and A. Rahimi, “A Survey on Hyperdimensional Computing aka Vector Symbolic Architectures, Part I: Models and Data Transformations,” ACM Comput. Surv., vol. 55, no. 6, pp. 1–40, Jul. 2023, doi: 10.1145/3538531.
+
+* D. Kleyko, D. Rachkovskij, E. Osipov, and A. Rahimi, “A Survey on Hyperdimensional Computing aka Vector Symbolic Architectures, Part II: Applications, Cognitive Models, and Challenges,” ACM Comput. Surv., vol. 55, no. 9, pp. 1–52, Sep. 2023, doi: 10.1145/3558000.
+
+* C. J. Kymn et al., “Computing with Residue Numbers in High-Dimensional Representation,” Nov. 08, 2023, arXiv: arXiv:2311.04872. doi: 10.48550/arXiv.2311.04872.
+
+* D. Kleyko et al., “Vector Symbolic Architectures as a Computing Framework for Emerging Hardware,” Proc. IEEE, vol. 110, no. 10, pp. 1538–1571, Oct. 2022, doi: 10.1109/JPROC.2022.3209104.
+
+* J. E. Pedersen et al., “Neuromorphic intermediate representation: A unified instruction set for interoperable brain-inspired computing,” Nat Commun, vol. 15, no. 1, p. 8122, Sep. 2024, doi: 10.1038/s41467-024-52259-9.
+
+
