@@ -41,14 +41,12 @@ Resources
 
 * `<https://github.com/eilene-ftf/holis>`_
 
-* D. Kleyko, D. A. Rachkovskij, E. Osipov, and A. Rahimi, “A Survey on Hyperdimensional Computing aka Vector Symbolic Architectures, Part I: Models and Data Transformations,” ACM Comput. Surv., vol. 55, no. 6, pp. 1–40, Jul. 2023, doi: 10.1145/3538531.
+* Kleyko, D., Davies, M., Frady, E. P., Kanerva, P., Kent, S. J., Olshausen, B. A., Osipov, E., Rabaey, J. M., Rachkovskij, D. A., Rahimi, A., & Sommer, F. T. (2022). Vector Symbolic Architectures as a Computing Framework for Emerging Hardware. Proceedings of the IEEE, 110(10), 1538–1571. https://doi.org/10.1109/JPROC.2022.3209104
 
-* D. Kleyko, D. Rachkovskij, E. Osipov, and A. Rahimi, “A Survey on Hyperdimensional Computing aka Vector Symbolic Architectures, Part II: Applications, Cognitive Models, and Challenges,” ACM Comput. Surv., vol. 55, no. 9, pp. 1–52, Sep. 2023, doi: 10.1145/3558000.
+* Kleyko, D., Rachkovskij, D. A., Osipov, E., & Rahimi, A. (2023a). A Survey on Hyperdimensional Computing aka Vector Symbolic Architectures, Part I: Models and Data Transformations. ACM Computing Surveys, 55(6), 1–40. https://doi.org/10.1145/3538531
 
-* C. J. Kymn et al., “Computing with Residue Numbers in High-Dimensional Representation,” Nov. 08, 2023, arXiv: arXiv:2311.04872. doi: 10.48550/arXiv.2311.04872.
+* Kleyko, D., Rachkovskij, D., Osipov, E., & Rahimi, A. (2023b). A Survey on Hyperdimensional Computing aka Vector Symbolic Architectures, Part II: Applications, Cognitive Models, and Challenges. ACM Computing Surveys, 55(9), 1–52. https://doi.org/10.1145/3558000
 
-* D. Kleyko et al., “Vector Symbolic Architectures as a Computing Framework for Emerging Hardware,” Proc. IEEE, vol. 110, no. 10, pp. 1538–1571, Oct. 2022, doi: 10.1109/JPROC.2022.3209104.
+* Kymn, C. J., Kleyko, D., Frady, E. P., Bybee, C., Kanerva, P., Sommer, F. T., & Olshausen, B. A. (2023). Computing with Residue Numbers in High-Dimensional Representation (No. arXiv:2311.04872). arXiv. https://doi.org/10.48550/arXiv.2311.04872
 
-* J. E. Pedersen et al., “Neuromorphic intermediate representation: A unified instruction set for interoperable brain-inspired computing,” Nat Commun, vol. 15, no. 1, p. 8122, Sep. 2024, doi: 10.1038/s41467-024-52259-9.
-
-
+* Pedersen, J. E., Abreu, S., Jobst, M., Lenz, G., Fra, V., Bauer, F. C., Muir, D. R., Zhou, P., Vogginger, B., Heckel, K., Urgese, G., Shankar, S., Stewart, T. C., Sheik, S., & Eshraghian, J. K. (2024). Neuromorphic intermediate representation: A unified instruction set for interoperable brain-inspired computing. Nature Communications, 15(1), 8122. https://doi.org/10.1038/s41467-024-52259-9
