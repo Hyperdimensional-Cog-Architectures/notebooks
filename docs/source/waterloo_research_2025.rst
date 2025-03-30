@@ -1,2 +1,2 @@
-2025 Annual Summit of Neursymbolic Computing
+2025 Annual Summit of Neurosymbolic Programming
 ==========================================================
