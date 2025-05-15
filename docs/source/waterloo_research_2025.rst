@@ -31,7 +31,7 @@ Co-leads
 
 * **Spencer Eckler** (Carleton University): Spencer’s research is in causal reasoning – how we reason about actions, outcomes, and counterfactuals. He uses cognitive models to simulate psychological tasks tying behaviour, neural activity, and mental representations through theory synthesis.
 
-*  **Tim Gothard** (Independent Researcher): 
+*  **Tim Gothard** (Independent Researcher): Tim is an independent AI alignment researcher with a background in computational neuroscience and moral cognition. 
 
 * **Connor Hanley** (Carleton University): Connor is interested in cognitive architectures, the theory and applications of neuromorphic computation, and biologically plausible models of representations of numerosity.
 
