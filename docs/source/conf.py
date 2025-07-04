@@ -5,3 +5,8 @@ html_theme_path = [sphinx_theme.get_html_theme_path()]
 # Project information
 project = 'VSAs and Cognition'
 master_doc = 'index'
+
+# Extensions
+extensions = [
+    "nbsphinx"
+]
