@@ -8,5 +8,5 @@ master_doc = 'index'
 
 # Extensions
 extensions = [
-    "nbsphinx"
+    "nbsphinx",
 ]
