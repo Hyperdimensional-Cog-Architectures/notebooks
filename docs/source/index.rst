@@ -18,5 +18,5 @@ This project is under active development.
    :maxdepth: 2
    :caption: Contents:
 
-   notebooks/linear_algebra_essentials
+   notebooks/linear_algebra
    waterloo_research_2025
