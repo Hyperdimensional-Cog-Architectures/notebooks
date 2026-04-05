@@ -9,6 +9,8 @@ which is a mathematical formalism that we use in our lab to model cognition.
 We will include a list of exercises to familiarize yourself with VSAs, as well
 as their applications to cognitive modeling.
 
+This site is (arguably) maintained by the `ANIMUS lab <https://carleton.ca/animus>`_ at Carleton University.
+
 Note:
 -----
 
