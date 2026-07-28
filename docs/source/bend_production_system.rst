@@ -37,4 +37,20 @@ Production Systems
 
     A production system is a scheme for specifying an information processing system. It consists of a set of productions, each production consisting of a condition and an action. It also has a collection of data structures: expressions that encode the information upon which the production system works--on which the actions operate and on which the conditions can be determined to be true or false. :cite:`Newell1973`
 
+Put in a slightly less tortured way, Newell writes that a production system has two main elements:
+
+- some data structures that may change dependently on input (typically asynchronously)
+- a set of condition-action pairs such that
+  - the conditions are sensitive to the values of the data structures
+  - the actions may update the data structures
+  - whenever a condition is true (with some complications), its corresponding action is taken
+
+Put more cutely (and in a more modern vocabulary), production systems are a model of `event-driven computing <https://en.wikipedia.org/wiki/Event-driven_programming>`_. In each production system, there is a loop that runs continually, and at each iteration, tests if any condition in the set of condition-action pairs is true. If it detects that one is true, then it takes the appropriate action. In case more than one is true, the designer specifies some method of conflict resolution to determine which action or actions will be taken. In our example, the conflict resolution method will be random choice.
+
+Newell intended his production systems to form the basis of models of human cognition, in particular representing the human as a *behaving system*. A production system never freezes; it interacts with its data structures to the beat of an infinite loop, and its inputs can be modified at any time, independently of its operation. Likewise, it can modify its data structures, and accordingly a process monitoring their values can be independently altered. If the data structures are being monitored by a simulated mouse or keyboard, or a robotic arm, the production system is generating control signals for them. If its inputs are provided by sensors streaming data in real time, the production system is able to behave in real time, dependently on its inputs. A production system, therefore, generates behaviour *by default*, which makes it somewhat different from other paradigms of cognitive modelling. Usually, cognitive modelling is interested in predicting behaviour rather than generating that behaviour. These two approaches are methodologically distinct in a way that is worth discussing.
+
+In the former case, we tend to get a distribution of behaviours sensitive to some experimental conditions, and (depending on how our models are set up) it can be difficult to reproduce the behaviour of our subjects, as just sampling the conditional probability distribution does not necessarily reflect individual processing. Our model might average across individuals or accidentally make two subgroups dependent on some relevant causal factor appear to be the same group, even if it is predictive. On the other hand, we have the second case, in which behaviour is generated. Here, we can always create a population of synthetic subjects, with some parameters that vary between subjects, and use the distribution of their behaviour as a predictive model of human behaviour. This is not to say that the latter technique is strictly superior (it is always possible to do sufficiently careful predictive statistics that individual behaviour can be reconstructed), but the latter method shifts one's frame to considering not just an underlying cognitive process (which we should always be concerned with, whether or not we are doing predictive or generative modelling), but how it plays out in real time, and how it influences decision and ultimately individual behaviour.
+
+A production system is one of the two basic components of ACT-R :cite:`Anderson2007`
+
 .. bibliography::
