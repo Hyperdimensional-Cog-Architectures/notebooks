@@ -4,3 +4,4 @@ nbsphinx>=0.9.7
 numpy>=1.24.4
 sphinx==6.2.1
 sphinx-theme>=1.0
+sphinxcontrib-bibtex

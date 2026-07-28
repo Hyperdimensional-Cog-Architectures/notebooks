@@ -14,3 +14,7 @@ li > p {
 .strike {
   text-decoration: line-through;
 }
+
+blockquote {
+  font-style: italic;
+}
