@@ -67,7 +67,7 @@ A useful intuition is that the slots and values in a memory trace are like bound
 door:red
 ```
 
-in a buffer, where "door" is the slot and "red" is the value. One can also think of slot-value pairs like the key-value pairs in a dictionary/hashtable, and that's the exact intuition we'll be using to implement bactr.
+in a buffer, where "door" is the slot and "red" is the value. One can also think of slot-value pairs like the key-value pairs in a dictionary/hashmap, and that's the exact intuition we'll be using to implement bactr.
 
 Because of the uniform format, and because ACT-R models are quite simple and inherently capable of effecting behaviour, bactr will be a general-purpose production system written in Bend, using the ACT-R slot-value format, and control programs will be formatted as sets of productions.
 
