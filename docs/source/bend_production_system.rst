@@ -96,7 +96,7 @@ Data Structure
 
 Bend does not have *objects* in the same sense as an object-oriented programming language, but it does have a way to represent structured data embellished with some functions that operate on it. Conventionally, these are called *fat structs*. In bend, they are just called "objects", for maximum confusion.
 
-Our chunks will be represented as hashmaps, conveniently located in `hashmap.bend <https://github.com/eilene-ftf/bactr/blob/main/src/hashmap.bend>`_. A hashmap is built on top of the `Map` data structure, so-called because it associates integer values (of the odd type `u24`, meaning a 24-bit unsigned integer) with some arbitrary data.
+Our chunks will be represented as hashmaps, conveniently located in `hashmap.bend <https://github.com/eilene-ftf/bactr/blob/main/src/hashmap.bend>`_. A hashmap is built on top of the ``Map`` data structure, so-called because it associates integer values (of the odd type ``u24``, meaning a 24-bit unsigned integer) with some arbitrary data.
 
 
 
