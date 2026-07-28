@@ -32,3 +32,10 @@ None of this could have been done without the hard work of:
 - Eilene Tomkins-Flanagan (that's me!)
 - and the support of Michael Furlong and our dear :strike:`leader` supervisor Mary Kelly
 
+==================
+Production Systems
+==================
+
+    A production system is a scheme for specifying an information processing system. It consists of a set of productions, each production consisting of a condition and an action. It also has a collection of data structures: expressions that encode the information upon which the production system works--on which the actions operate and on which the conditions can be determined to be true or false. :cite:`Newell1973`
+
+.. bibliography::

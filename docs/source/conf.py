@@ -9,8 +9,10 @@ master_doc = 'index'
 # Extensions
 extensions = [
     "nbsphinx",
+    "sphinxcontrib.bibtex",
 ]
 
 # Customization
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
+bibtex_bibfiles = ["ref.bib"]
