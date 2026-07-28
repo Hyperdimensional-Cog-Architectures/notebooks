@@ -1,6 +1,9 @@
 Creating a Production System in Bend and Also It's Neuromorphic
 ===============================================================
 
+.. role:: strike
+   :class: strike
+
 *note: this article is unfinished, I am uploading it to make sure I've got my syntax all right.*
 
 There comes a time, in every young woman's life, when she sees something interesting, and thinks to herself
