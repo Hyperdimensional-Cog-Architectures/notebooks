@@ -78,7 +78,14 @@ Doing it In Bend
 
 HVM stands for "Higher-order Virtual Machine", and it's a virtual machine in the way that the Java virtual machine is. That is to say, it is a model computer with its own machine language you can compile programs into. The model computer is simulated by a piece of software on a variety of host platforms, and, in principle, programs compiled to its machine language should run identically on any platform, so long as they are running the same version of HVM.
 
-What makes HVM particularly interesting is that its machine language is based on a model of computation called interaction combinators :cite:`Lafont1997`
+What makes HVM particularly interesting is that its machine language is based on a model of computation called interaction combinators :cite:`Lafont1997`. For now, the exact details can be glossed over, but there are some details that will serve to explain our interest in interaction combinators. Interaction combinators are a kind of computing model called a graph rewriting system :cite:`Courcelle1990`. In general, these systems work by specifying programs as graphs (that is, in the computer science sense of the term: a collection of nodes, connected by edges). They come with "rewriting rules" that do about what they sound like: depending on how the graph is arranged, we rewrite part of it in order to change it into a different graph. This process repeats until no more rewriting rules can be applied.
+
+.. figure:: images/nickelback.png
+    :alt: Look at this graph.
+    
+    Look at this graph.
+
+
 
 References
 ----------
