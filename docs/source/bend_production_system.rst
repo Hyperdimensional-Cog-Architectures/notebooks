@@ -32,6 +32,8 @@ None of this could have been done without the hard work of:
 - Eilene Tomkins-Flanagan (that's me!)
 - and the support of Michael Furlong and our dear :strike:`leader` supervisor Mary Kelly
 
+I'll precede the article by structuring it a little bit, because it's throwing together some ideas that are individually complicated, and may seem to go together about as well as oreos and green beans (that is, if you're not a sicko). At base, we are interested in *neuromorphic computing*, a sort of computer architecture where the units of computation are, rather than transistors, neuron-like in some important respects (typically, they have some capacitance and they like to violently discharge on reaching a threshold). The fundamental question is: can we coax these units into a shape that is programmable in the way a conventional computer is? Secondarily, can we use them to effect real-time control of a robot with conventional programs? The answer to both is yes, but the approach is layered, as neuromorphic computing addresses the elements of *computer hardware*, and we need to arrange them into a *computer architecture* with an instruction set that can serve as the compile target for *software*, which has to run a program that *effects control*. The tutorial will work top-down, in part because the computer architecture is unfinished. Control will be effected using a *production system*, which is to be implemented in the *bend programming language*. Bend compiles to a format called *HVM*, a model of graph computing that can relatively clearly be translated to a *neuromorphic architecture* with a little help from our old friends, VSAs. 
+
 Production Systems
 ------------------
 
@@ -57,7 +59,7 @@ In the former case, we tend to get a distribution of behaviours sensitive to som
    
     An illustration of the ACT-R architecture, from :cite:`Anderson2007` (p. 20)
 
-A production system is one of the two basic components of ACT-R :cite:`Anderson2007` (p. 40), the other being a "declarative" (in more psychological terms, "explicit") memory system. The declarative memory (by convention) makes no distinction between semantic and episodic memory (although some declarative memories may), and permits cued retrieval. That is, memories are stored associatively in cue-trace pairs, and if the memory system is probed with the appropriate cue, a corresponding trace is retrieved. As suggested in the title, we'll be focusing on *just* the production system, but ACT-R does something important that we will have to pause on. Namely, its data structures share a uniform format. All data consists of a collection of slot-value pairs (referred to as a "chunk") that are made available to the production system through elements of working memory called "buffers". The declarative memory system stores associations between chunks, and the production system is sensitive to the chunks presently stored in working memory.
+A production system is one of the two basic components of ACT-R :cite:`Anderson2007` (p. 40), the other being a "declarative" (in more psychological terms, "explicit") memory system. The declarative memory (by convention) makes no distinction between semantic and episodic memory (although some declarative memories may), and permits cued retrieval. That is, memories are stored associatively in cue-trace pairs, and if the memory system is probed with the appropriate cue, a corresponding trace is retrieved. As suggested in the title, we'll be focusing on *just* the production system, but ACT-R does something important that we will have to pause on. Namely, its data structures share a uniform format. All data consists of a collection of slot-value pairs (referred to as a "chunk") that are made available to the production system through elements of working memory called "buffers". The declarative memory system stores associations between chunks, and the production system is sensitive to the chunks presently stored in working memory. Chunks are also the data exchanged between the production systems and its inputs and outputs more generally.
 
 A useful intuition is that the slots and values in a memory trace are like bound elements of semantic information. If I wanted to store that there is a red door in an ACT-R system's field of view, I might store 
 
@@ -67,9 +69,18 @@ door:red
 
 in a buffer, where "door" is the slot and "red" is the value. One can also think of slot-value pairs like the key-value pairs in a dictionary/hashtable, and that's the exact intuition we'll be using to implement bactr.
 
+Because of the uniform format, and because ACT-R models are quite simple and inherently capable of effecting behaviour, bactr will be a general-purpose production system written in Bend, using the ACT-R slot-value format, and control programs will be formatted as sets of productions.
+
 Doing it In Bend
 ----------------
 
+`Bend <https://github.com/HigherOrderCO/bend>`_ is a programming language invented by an Avatar fanboy and named accordingly. It is a functional language that superficially resembles Python while working nothing at all like Python. It is weakly typed, except that the interpreter almost always enforces strong typing. It might or might not be abandonware, having not recieved any updates since last year at time of writing. It is also very interesting, because it compiles to `HVM <https://github.com/HigherOrderCO/HVM2>`_.
 
+HVM stands for "Higher-order Virtual Machine", and it's a virtual machine in the way that the Java virtual machine is. That is to say, it is a model computer with its own machine language you can compile programs into. The model computer is simulated by a piece of software on a variety of host platforms, and, in principle, programs compiled to its machine language should run identically on any platform, so long as they are running the same version of HVM.
+
+What makes HVM particularly interesting is that its machine language is based on a model of computation called interaction combinators :cite:`Lafont1997`
+
+References
+----------
 
 .. bibliography::
