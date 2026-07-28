@@ -10,3 +10,7 @@ master_doc = 'index'
 extensions = [
     "nbsphinx",
 ]
+
+# Customization
+html_static_path = ["_static"]
+html_css_files = ["custom.css"]
