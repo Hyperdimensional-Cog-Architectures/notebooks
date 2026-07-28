@@ -19,3 +19,7 @@ li > p {
 blockquote {
   font-style: italic;
 }
+
+blockquote > span {
+  font-style: normal;
+}
