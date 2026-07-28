@@ -85,7 +85,14 @@ What makes HVM particularly interesting is that its machine language is based on
     
     Look at this graph.
 
+HVM is also interesting because, like the interaction combinator, its rewriting rules are *local* and *independent*. That is, evaluating a rewriting rule updates a section of the graph that includes two nodes connected by a certain kind of edge, and the nodes connected to them, and nothing else. The graph is also structured in such a way that the neighbourhood of nodes necessary to process one rewriting rule never overlaps with the neighbourhood of any other, and no matter the order of application, the graph will always eventually end up the same at the end of the computation. As a result, it's possible two rewriting rules can be applied at the same time to different parts of the graph, and the order they're applied in doesn't matter. They won't interfere with one another. HVM is thus *very easy to parallelize*, so long as the graph is built in such a way that many rewriting rules can be applied at once. Even better, there is already a more or less conventional language (Bend) that compiles to HVM.
 
+To anticipate a later section a little bit, the inherent parallelism of HVM is really useful for neuromorphic computation, as neuromorphic computing tends to work best when data structures can be computed over in parallel.
+
+So, let's build up our production system.
+
+Data Structure
+~~~~~~~~~~~~~~
 
 References
 ----------
