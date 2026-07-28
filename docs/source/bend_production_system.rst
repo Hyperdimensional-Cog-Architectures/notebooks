@@ -41,6 +41,7 @@ Put in a slightly less tortured way, Newell writes that a production system has 
 
 - some data structures that may change dependently on input (typically asynchronously)
 - a set of condition-action pairs such that
+
   - the conditions are sensitive to the values of the data structures
   - the actions may update the data structures
   - whenever a condition is true (with some complications), its corresponding action is taken
