@@ -10,3 +10,7 @@ ul > li {
 li > p {
   margin-bottom: 0px;
 }
+
+.strike {
+  text-decoration: line-through;
+}

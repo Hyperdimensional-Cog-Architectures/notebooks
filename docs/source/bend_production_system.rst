@@ -27,5 +27,5 @@ None of this could have been done without the hard work of:
 - Spencer Eckler
 - Tim Gothard
 - Eilene Tomkins-Flanagan (that's me!)
-- and the support of Michael Furlong and our dear leader (er, supervisor) Mary Kelly
+- and the support of Michael Furlong and our dear :strike:`leader` supervisor Mary Kelly
 
