@@ -57,6 +57,19 @@ In the former case, we tend to get a distribution of behaviours sensitive to som
    
     An illustration of the ACT-R architecture, from :cite:`Anderson2007` (p. 20)
 
-A production system is one of the two basic components of ACT-R :cite:`Anderson2007` (p. 40)
+A production system is one of the two basic components of ACT-R :cite:`Anderson2007` (p. 40), the other being a "declarative" (in more psychological terms, "explicit") memory system. The declarative memory (by convention) makes no distinction between semantic and episodic memory (although some declarative memories may), and permits cued retrieval. That is, memories are stored associatively in cue-trace pairs, and if the memory system is probed with the appropriate cue, a corresponding trace is retrieved. As suggested in the title, we'll be focusing on *just* the production system, but ACT-R does something important that we will have to pause on. Namely, its data structures share a uniform format. All data consists of a collection of slot-value pairs (referred to as a "chunk") that are made available to the production system through elements of working memory called "buffers". The declarative memory system stores associations between chunks, and the production system is sensitive to the chunks presently stored in working memory.
+
+A useful intuition is that the slots and values in a memory trace are like bound elements of semantic information. If I wanted to store that there is a red door in an ACT-R system's field of view, I might store 
+
+```
+door:red
+```
+
+in a buffer, where "door" is the slot and "red" is the value. One can also think of slot-value pairs like the key-value pairs in a dictionary/hashtable, and that's the exact intuition we'll be using to implement bactr.
+
+Doing it In Bend
+----------------
+
+
 
 .. bibliography::
