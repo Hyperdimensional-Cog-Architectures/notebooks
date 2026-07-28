@@ -52,8 +52,11 @@ Newell intended his production systems to form the basis of models of human cogn
 
 In the former case, we tend to get a distribution of behaviours sensitive to some experimental conditions, and (depending on how our models are set up) it can be difficult to reproduce the behaviour of our subjects, as just sampling the conditional probability distribution does not necessarily reflect individual processing. Our model might average across individuals or accidentally make two subgroups dependent on some relevant causal factor appear to be the same group, even if it is predictive. On the other hand, we have the second case, in which behaviour is generated. Here, we can always create a population of synthetic subjects, with some parameters that vary between subjects, and use the distribution of their behaviour as a predictive model of human behaviour. This is not to say that the latter technique is strictly superior (it is always possible to do sufficiently careful predictive statistics that individual behaviour can be reconstructed), but the latter method shifts one's frame to considering not just an underlying cognitive process (which we should always be concerned with, whether or not we are doing predictive or generative modelling), but how it plays out in real time, and how it influences decision and ultimately individual behaviour.
 
-.. image:: images/actr_schematic.png
+.. figure:: images/actr_schematic.png
+   :alt: Schematic of ACT-R
+   
+  An illustration of the ACT-R architecture, from :cite:`Anderson2007` (p. 20)
 
-A production system is one of the two basic components of ACT-R :cite:`Anderson2007`
+A production system is one of the two basic components of ACT-R :cite:`Anderson2007` (p. 40)
 
 .. bibliography::
