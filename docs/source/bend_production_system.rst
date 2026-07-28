@@ -5,7 +5,6 @@ Creating a Production System in Bend and Also It's Neuromorphic
 
 There comes a time, in every young woman's life, when she sees something interesting, and thinks to herself
 
-::
     I should make that ACT-R!
 
 this is almost always a terrible idea. Too many things are already ACT-R, including yet a fourth or fifth (at time of writing) upcoming Python implementation of ACT-R, and almost none of them are any help to Dan, who is very sick of toiling alone.
@@ -18,25 +17,15 @@ The code here was written for bend 0.2.38.
 
 None of this could have been done without the hard work of:
 
-* Esra Hancock
-
-* Maria Vorobeva
-
-* Stef Kwok
-
-* Theo Pana
-
-* Ruth Nobossi
-
-* Isaac Liu
-
-* Connor Hanley
-
-* Spencer Eckler
-
-* Tim Gothard
-
-* Eilene Tomkins-Flanagan (that's me!)
-
-* and the support of Michael Furlong and our dear leader (er, supervisor) Mary Kelly
+- Esra Hancock
+- Maria Vorobeva
+- Stef Kwok
+- Theo Pana
+- Ruth Nobossi
+- Isaac Liu
+- Connor Hanley
+- Spencer Eckler
+- Tim Gothard
+- Eilene Tomkins-Flanagan (that's me!)
+- and the support of Michael Furlong and our dear leader (er, supervisor) Mary Kelly
 
